@@ -1,0 +1,325 @@
+2025-11-29 19:06:06,928 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-11-29 19:06:06,955 INFO o.a.j.JMeter: Loading user properties from: D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2025-11-29 19:06:06,956 INFO o.a.j.JMeter: Loading system properties from: D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2025-11-29 19:06:06,956 INFO o.a.j.JMeter: Loading additional properties from: .\jetpets.properties
+2025-11-29 19:06:06,966 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-11-29 19:06:06,966 INFO o.a.j.JMeter: Version 5.6.3
+2025-11-29 19:06:06,966 INFO o.a.j.JMeter: java.version=20.0.1
+2025-11-29 19:06:06,966 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-11-29 19:06:06,967 INFO o.a.j.JMeter: os.name=Windows 11
+2025-11-29 19:06:06,967 INFO o.a.j.JMeter: os.arch=amd64
+2025-11-29 19:06:06,967 INFO o.a.j.JMeter: os.version=10.0
+2025-11-29 19:06:06,967 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-11-29 19:06:06,967 INFO o.a.j.JMeter: java.awt.headless=true
+2025-11-29 19:06:06,968 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-11-29 19:06:06,968 INFO o.a.j.JMeter: Available Processors =12
+2025-11-29 19:06:06,982 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-11-29 19:06:06,982 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-11-29 19:06:06,982 INFO o.a.j.JMeter: JMeterHome=D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2025-11-29 19:06:06,982 INFO o.a.j.JMeter: user.dir  =D:\ahlybank task
+2025-11-29 19:06:06,983 INFO o.a.j.JMeter: PWD       =D:\ahlybank task
+2025-11-29 19:06:06,995 INFO o.a.j.JMeter: IP: 192.168.1.3 Name: oursdo FullName: oursdo
+2025-11-29 19:06:07,019 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\ahlybank task\.\dash-board\jetPet'
+2025-11-29 19:06:07,022 INFO o.a.j.s.FileServer: Default base='D:\ahlybank task'
+2025-11-29 19:06:07,025 INFO o.a.j.s.FileServer: Set new base='D:\ahlybank task\.'
+2025-11-29 19:06:07,300 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-11-29 19:06:07,339 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-11-29 19:06:07,343 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-11-29 19:06:07,347 INFO o.a.j.s.SaveService: Loading file: .\scriptforAhluBank.jmx
+2025-11-29 19:06:07,440 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-29 19:06:07,440 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-29 19:06:07,440 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-29 19:06:07,441 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-11-29 19:06:07,441 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-11-29 19:06:07,441 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-11-29 19:06:07,463 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2025-11-29 19:06:07,527 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-11-29 19:06:07,532 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-11-29 19:06:07,532 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: .\dashboarddata\jetPet\log.csv
+2025-11-29 19:06:07,532 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-11-29 19:06:07,577 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-11-29 19:06:07,604 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-11-29 19:06:07,607 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-11-29 19:06:07,608 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-11-29 19:06:07,608 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-11-29 19:06:07,608 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-11-29 19:06:07,608 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-11-29 19:06:07,608 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-11-29 19:06:07,608 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-11-29 19:06:07,608 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-11-29 19:06:07,615 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,616 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,616 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,616 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,616 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,616 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,616 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,616 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,617 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,617 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-11-29 19:06:07,618 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-11-29 19:06:07,618 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-11-29 19:06:07,618 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-11-29 19:06:07,619 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-11-29 19:06:07,619 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-11-29 19:06:07,619 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-11-29 19:06:07,637 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-11-29 19:06:07,638 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-11-29 19:06:07,639 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-11-29 19:06:07,650 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-11-29 19:06:07,651 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-11-29 19:06:07,888 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\cmdrunner-2.3.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:07,892 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,081 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-prmctl-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,085 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-ffw-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,089 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\json-lib-2.4-jdk15.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,090 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10 (1).jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,092 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-tst-2.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,098 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-cmn-jmeter-0.7.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,135 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-fifo-0.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,143 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,146 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-functions-2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,155 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,160 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,166 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\perfmon-2.2.2.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,178 INFO o.a.j.r.ClassFinder: Will scan jar D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-11-29 19:06:08,264 INFO o.a.j.r.ResultCollector: Folder at D:\home\elbaih\Documents was created
+2025-11-29 19:06:08,294 INFO o.a.j.JMeter: Running test (1764435968294)
+2025-11-29 19:06:08,316 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2025-11-29 19:06:08,316 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2025-11-29 19:06:08,316 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-11-29 19:06:08,316 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=5 delayedStart=false
+2025-11-29 19:06:08,333 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-11-29 19:06:08,333 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-11-29 19:06:08,333 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-11-29 19:06:08,333 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-11-29 19:06:08,335 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2025-11-29 19:06:08,337 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-11-29 19:06:08,337 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-11-29 19:06:08,362 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = oursdo
+2025-11-29 19:06:08,375 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-11-29 19:06:08,610 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-11-29 19:06:08,620 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-11-29 19:06:08,620 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-11-29 19:06:08,764 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-11-29 19:06:08,770 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-11-29 19:06:08,770 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-11-29 19:06:08,832 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2025-11-29 19:06:09,331 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2025-11-29 19:06:09,826 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2025-11-29 19:06:10,325 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2025-11-29 19:06:10,823 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2025-11-29 19:06:11,321 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2025-11-29 19:06:11,819 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2025-11-29 19:06:12,320 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2025-11-29 19:06:12,820 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2025-11-29 19:06:13,561 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:13,975 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:14,010 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:14,227 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:15,080 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:15,703 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:16,231 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:16,534 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:16,621 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:16,900 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:17,222 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:17,689 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:17,835 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:18,046 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:18,940 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:19,380 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:20,009 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:20,191 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:20,334 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:20,574 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:20,799 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:21,339 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:21,344 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:21,669 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:22,783 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:23,026 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:23,711 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:23,811 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:24,018 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:24,533 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:24,651 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:24,876 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:24,943 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:25,277 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:26,771 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:26,879 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:27,256 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:27,344 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:27,679 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:28,230 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:28,609 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:28,728 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:28,770 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:28,852 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:30,549 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:30,737 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:30,798 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:30,884 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:31,349 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:31,892 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:32,238 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:32,386 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:32,416 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:32,616 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:34,420 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:34,428 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:34,474 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:34,666 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:35,030 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:35,541 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:35,900 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:35,969 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:36,190 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:37,375 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:38,077 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:38,299 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:38,370 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:38,486 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:38,729 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:39,231 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:39,493 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:39,525 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:40,176 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:41,406 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:41,674 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:41,841 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:42,309 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:42,340 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:42,679 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:43,150 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:43,380 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:43,527 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:43,669 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:45,449 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:45,582 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:45,744 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:46,555 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:46,586 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:46,609 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:46,787 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:46,859 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:47,122 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:47,668 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:49,378 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:49,610 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:50,173 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:50,306 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:50,310 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:50,318 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:50,326 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:50,353 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:51,052 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:51,198 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:53,373 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:53,378 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:53,671 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:53,785 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:53,797 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:53,956 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:54,114 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:54,478 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:54,757 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:54,921 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:56,672 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:56,997 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:57,368 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:57,371 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:57,406 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:57,619 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:57,903 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:58,639 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:58,657 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:06:58,778 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:00,410 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:00,592 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:00,925 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:01,390 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:01,566 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:01,608 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:01,813 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:02,261 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:03,155 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:03,168 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:04,114 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:04,201 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:04,425 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:05,260 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:05,347 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:05,421 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:05,561 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:05,794 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:06,941 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:07,476 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:07,744 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:07,774 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:07,890 WARN o.a.j.p.h.s.HTTPSamplerBase: Existing CookieManager HTTP CookieManager superseded by HTTP CookieManager
+2025-11-29 19:07:08,354 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-10
+2025-11-29 19:07:08,355 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2025-11-29 19:07:08,455 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-6
+2025-11-29 19:07:08,455 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2025-11-29 19:07:08,528 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1
+2025-11-29 19:07:08,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2025-11-29 19:07:08,557 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-3
+2025-11-29 19:07:08,558 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2025-11-29 19:07:08,641 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-5
+2025-11-29 19:07:08,642 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-9
+2025-11-29 19:07:08,642 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2025-11-29 19:07:08,642 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2025-11-29 19:07:08,697 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-7
+2025-11-29 19:07:08,698 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2025-11-29 19:07:08,758 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-2
+2025-11-29 19:07:08,758 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2025-11-29 19:07:08,878 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-4
+2025-11-29 19:07:08,879 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2025-11-29 19:07:08,925 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-8
+2025-11-29 19:07:08,925 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2025-11-29 19:07:08,925 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-11-29 19:07:08,937 INFO o.a.j.r.Summariser: summary =     10 in 00:01:01 =    0.2/s Avg:  2122 Min:   866 Max:  3457 Err:     0 (0.00%)
+2025-11-29 19:07:08,938 INFO o.a.j.JMeter: Generating Dashboard
+2025-11-29 19:07:08,938 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-11-29 19:07:08,993 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-11-29 19:07:09,396 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-11-29 19:07:09,396 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-11-29 19:07:09,423 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-11-29 19:07:09,423 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-11-29 19:07:09,437 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-11-29 19:07:09,445 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-11-29 19:07:09,446 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-11-29 19:07:09,446 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-11-29 19:07:09,602 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-11-29 19:07:09,603 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-11-29 19:07:09,604 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-11-29 19:07:09,604 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-11-29 19:07:09,667 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-11-29 19:07:09,668 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 15932 samples
+2025-11-29 19:07:09,668 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-11-29 19:07:09,668 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-11-29 19:07:09,668 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-11-29 19:07:09,669 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-11-29 19:07:09,669 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-11-29 19:07:09,670 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-11-29 19:07:09,680 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-11-29 19:07:09,681 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-11-29 19:07:09,681 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-11-29 19:07:09,681 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-11-29 19:07:09,681 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 36330 samples
+2025-11-29 19:07:09,681 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 7266 samples
+2025-11-29 19:07:09,682 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 2422 samples
+2025-11-29 19:07:09,683 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 2422 samples produced in 635ms on channel 0
+2025-11-29 19:07:09,684 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-11-29 19:07:09,864 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-11-29 19:07:09,864 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-11-29 19:07:09,865 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-11-29 19:07:09,866 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-11-29 19:07:09,866 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to D:\ahlybank task\.\dash-board\jetPet\statistics.json
+2025-11-29 19:07:09,954 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-11-29 19:07:09,959 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\ahlybank task\.\dash-board\jetPet
+2025-11-29 19:07:10,391 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\ahlybank task\.\dash-board\jetPet, creating folder structure
+2025-11-29 19:07:10,395 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\programs\java devolop\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\report-template' to 'D:\ahlybank task\.\dash-board\jetPet', got message: D:\ahlybank task\.\dash-board\jetPet, found non empty folder with following content [D:\ahlybank task\.\dash-board\jetPet\statistics.json], will be ignored
+2025-11-29 19:07:12,520 INFO o.a.j.JMeter: Dashboard generated
