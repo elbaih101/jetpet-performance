@@ -5,8 +5,8 @@ set dashBoardDataLocation=.\dashboarddata\%name%
 set dashBoard=.\dash-board\%name%
 set csvLog=%dashBoardDataLocation%\log.csv
 set runLog=%dashBoardDataLocation%\runlog.txt
-set jmxFile=".\jetpetScript.jmx"
-set propFile="".\jetpets.properties""
+set jmxFile=.\jetpetScript.jmx
+set propFile=.\jetpets.properties
 set "distributed=-Gremote_hosts=127.0.0.1,192.168.100.135"
 
 if not exist "%dashBoardDataLocation%" (
@@ -24,5 +24,5 @@ Echo "%csvLog%"
 Echo "%runLog%"
 Echo "%dashBoard%"
 Echo running the test
-call jmeter -n  -t "%jmxFile%" -l "%csvLog%" -j "%runLog%" -e -o "%dashBoard%" -q %propFile%
+call jmeter -n -q "%propFile%" -t "%jmxFile%" -l "%csvLog%" -j "%runLog%" -e -o "%dashBoard%" 
 ECHO test completed
