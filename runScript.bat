@@ -5,7 +5,7 @@ set dashBoardDataLocation=.\dashboarddata\%name%
 set dashBoard=.\dash-board\%name%
 set csvLog=%dashBoardDataLocation%\log.csv
 set runLog=%dashBoardDataLocation%\runlog.txt
-set jmxFile=".\scriptforAhluBank.jmx"
+set jmxFile=".\jetpetScript.jmx"
 set propFile="".\jetpets.properties""
 set "distributed=-Gremote_hosts=127.0.0.1,192.168.100.135"
 
